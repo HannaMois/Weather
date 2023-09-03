@@ -1,0 +1,9 @@
+
+.bgbox { 
+  backdrop-filter: blur(20px);
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+}
+
+

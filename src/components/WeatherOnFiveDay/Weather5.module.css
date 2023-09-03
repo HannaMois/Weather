@@ -1,0 +1,75 @@
+.reactTabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: ce;
+  align-items: center;
+  margin: 30px auto;
+
+}
+
+.reactTabList {
+  max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .reactTabList {
+    max-width: 688px;
+  }
+}
+
+
+
+.days__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+  background: #6d67d0;
+  color: #C2BFF4;
+  border-radius: 10px;
+  padding: 20px;
+  width: 240px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .days__container {
+    flex-direction: row;
+    width: 648px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .days__container {
+
+    width: 820px;
+  }
+}
+
+.days__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  height: 165px;
+}
+
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+  .days__item {
+    width: 84px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .days__item {
+    width: 105px;
+  }
+}
+
+.days__description {
+  text-align: center;
+}
